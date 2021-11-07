@@ -26,10 +26,10 @@ import {
   ListItemButton
 } from '@mui/material';
 // utils
-import { mockImgAvatar } from '../../utils/mockImages';
+import { mockImgAvatar } from '../../../utils/mockImages';
 // components
-import Scrollbar from '../../components/Scrollbar';
-import MenuPopover from '../../components/MenuPopover';
+import Scrollbar from '../../../components/Scrollbar';
+import MenuPopover from '../../../components/MenuPopover';
 
 // ----------------------------------------------------------------------
 

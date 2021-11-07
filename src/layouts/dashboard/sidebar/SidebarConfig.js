@@ -13,29 +13,34 @@ const getIcon = (name) => <Icon icon={name} width={22} height={22} />;
 
 const sidebarConfig = [
   {
-    title: 'dashboard',
-    path: '/dashboard/app',
+    title: 'Database',
+    path: '/dashboard/database',
+    icon: getIcon('fluent:database-search-20-filled')
+  },
+  {
+    title: 'statistics',
+    path: '/dashboard/statistics',
     icon: getIcon(pieChart2Fill)
   },
   {
-    title: 'user',
-    path: '/dashboard/user',
-    icon: getIcon(peopleFill)
+    title: 'submit',
+    path: '/dashboard/submit',
+    icon: getIcon('bi:cloud-upload-fill')
   },
   {
-    title: 'product',
-    path: '/dashboard/products',
-    icon: getIcon(shoppingBagFill)
+    title: 'contacts',
+    path: '/dashboard/contacts',
+    icon: getIcon('zondicons:conversation')
   },
   {
-    title: 'blog',
-    path: '/dashboard/blog',
-    icon: getIcon(fileTextFill)
+    title: 'help',
+    path: '/dashboard/help',
+    icon: getIcon('ci:help-circle')
   },
   {
     title: 'login',
     path: '/login',
-    icon: getIcon(lockFill)
+    icon: getIcon('ls:login')
   },
   {
     title: 'register',
